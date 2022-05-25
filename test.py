@@ -19,11 +19,11 @@ while True:
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = faceCascade.detectMultiScale(gray, 1.32, 5)
         for(x, y, w, h) in faces:
-            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+            cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 255), 4)
             
-        font = cv2.FONT_HERSHEY_DUPLEX
+        font = cv2.FONT_HERSHEY_SIMPLEX
         l.append(result['dominant_emotion'])
-        cv2.putText(frame, result['dominant_emotion'],(100, 100), font, 5, (0, 0, 255), 12)
+        cv2.putText(frame, result['dominant_emotion'],(100, 100), font, 4, (0, 0, 255), 9)
         
         cv2.imshow('Video', frame)
         if cv2.waitKey(2) == ord('q'):  # wait until 'q' key is pressed
