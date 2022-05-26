@@ -7,7 +7,10 @@ classLabels=[]
 file_name='Labels.txt'
 with open(file_name,'rt') as fpt:
     classLabels=fpt.read().rstrip('\n').split('\n')
-
+model.setInputSize(320,320)
+model.setInputScale(1.0/127.5)
+model.setInputMean((127.5,127.5,127.5))
+model.setInputSwapRB(True)
 cap=cv2.VideoCapture(0)
 font_scale=3
 font=cv2.FONT_HERSHEY_PLAIN
