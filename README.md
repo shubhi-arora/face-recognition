@@ -34,16 +34,18 @@ allowing people to identify their emotions by looking at their faces.
 1. Clone this Repo using git clone <a href="https://github.com/shubhi-arora/face-recognition.git">https://github.com/shubhi-arora/face-recognition.git<a>
 2. Go to the directory where the project is cloned and then to face-recognition folder.
 3. Open the project folder using **Visual Studio Code**.
-4. Make sure latest version of Python setup is already installed in your computer. If not then install it from <a href="https://www.python.org/downloads/">here</a> for Windows.
+4. Make sure latest version of Python setup is already installed in your computer. If not, then download and install it from <a href="https://www.python.org/downloads/">here</a> for Windows.
 4. Open the terminal and run following commands to import libraries and install various packages.
 <ul>
-<li>pip install open-cv python</li>
+<li>pip install opencv-python</li>
 <li>pip install cv</li>
 <li>pip install Flask</li>
 <li>pip install matplotlib</li>
 <li>pip install numpy</li>
 <li>pip install Deepface</li>
 <li>pip install Counter</li>
+
+5. Open the terminal and run: <br>py -u <path of project folder>.<br> If this command doesn't works then try writing:<br> python -u <path of project folder>
 
 
 ### Demo
