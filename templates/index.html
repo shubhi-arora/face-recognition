@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/styles.css">
 </head>
+
 <body>
-<!-- Navbar Starts -->
+  <!-- Navbar Starts -->
   <nav class="navbar navbar-expand-lg navbar bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Recognito</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-     
-        <form class="d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="about">About</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link active" href="contact" tabindex="-1" aria-disabled="true">Contact</a>
-                </li>
-              </ul>
-        </form>
-      </div>
-    
+
+      <form class="d-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+
   </nav>
   <!-- Navbar Ends -->
 
-      <div class="container-index">
-        <div class="card-body">
-          <p id="p-text"><em>"Detect your emotions and dive deeper into yourself!"</em>
-            <br>
-            <br>
-            <h3 id="instruct"><strong>Instructions:</strong></h3>
-            <ul id="li-text">
-              <li>Click on the Detect button below to detect your face.</li>
-              <li>Keep your face in front of the camera.</li>
-              <li>Whenever any object comes in the line of sight of camera other than a face, camera automatically gets blocked.</li>
-              <li>Camera gets unblocked only after face comes in line of sight of camera again.</li>
-              <li>After the detection of face is over, press 'q' twice continuously.</li>
-            </ul>
-            
-            
+  <div class="container-index">
+    <div class="card-body">
+      <p id="p-text"><em>"Detect your emotions and dive deeper into yourself!"</em>
+        <br>
+        <br>
+        <h3 id="instruct"><strong>Instructions:</strong></h3>
+        <ul id="li-text">
+          <li>Click on the Detect button below to detect your face.</li>
+          <li>Keep your face in front of the camera.</li>
+          <li>Whenever any object comes in the line of sight of camera other than a face, camera automatically gets
+            blocked.</li>
+          <li>Camera gets unblocked only after face comes in line of sight of camera again.</li>
+          <li>After the detection of face is over, press 'q' twice continuously.</li>
+        </ul>
 
-             
-            </p>
-            <form action="/result" method="POST">
-              <input type="submit" class="btn btn-lg btn-primary" value="Detect" name="submit"/>
-            </form>
-        </div>
-     
+
+
+
+      </p>
+      <form action="/result" method="POST">
+        <input type="submit" class="btn btn-lg btn-primary" value="Detect" name="submit" />
+      </form>
     </div>
+
+  </div>
 </body>
+
 </html>

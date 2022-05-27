@@ -1,21 +1,24 @@
-body{
+body {
     background-image: url('https://st3.depositphotos.com/10325396/18588/i/600/depositphotos_185889616-stock-photo-face-detection-and-recognition-of.jpg');
     background-repeat: no-repeat;
-  background-size: cover;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* **************************************Navbar**************************************************** */
-.nav-item{
-    padding:10px;
+.nav-item {
+    padding: 10px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
+
 
 }
-.nav-link{
+
+.nav-link {
     color: #FE53BB;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
     color: #FE53BB;
@@ -27,20 +30,22 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     text-align: center;
     color: white;
-  }
-  .container-index {
+}
+
+.container-index {
     position: relative;
     color: white;
-  }
-  .centered {
+}
+
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-.card-body{
-    width:600px;
+}
+
+.card-body {
+    width: 600px;
     height: 700px;
     background-color: black;
     color: white;
@@ -50,20 +55,23 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 40px;
 }
 
-#p-text{
+#p-text {
     font-size: 40px;
     margin-top: 2.5rem;
     text-align: center;
     color: cyan;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#instruct{
+
+#instruct {
     margin-left: 20px;
 }
-#li-text{
+
+#li-text {
     font-size: 1.3em;
 }
-.btn{
+
+.btn {
     margin-top: 30px;
     margin-left: 220px;
     align-items: center;
@@ -71,14 +79,15 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: cyan;
     color: black;
 }
-.btn-lg:hover{
+
+.btn-lg:hover {
     color: #FE53BB;
 }
 
 /******************** About page ***************************/
-.card-body-about{
-    width:800px;
-    height: 800px;
+.card-body-about {
+    width: 800px;
+    height: 1400px;
     background-color: black;
     color: lightskyblue;
     margin-top: 10%;
@@ -86,54 +95,81 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 40px;
     margin-bottom: 100px;
 }
-.h1-about{
+
+.h1-about {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 60px;
     color: #FE53BB;
 }
-#p-text-about{
-    padding: 3em;
-    font-size: 20px;
-}
-.recognito{
+.h2-about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FE53BB;
+    text-align: left;
+    margin-left: 20px;
 }
 
+.p-text-about {
+    padding: 3em;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p-text-li{
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.recognito {
+    color: #FE53BB;
+}
+hr{
+    border-top: 10px solid palevioletred;
+    width: 100%;
+}
 /**************Result Page**************************/
-.card-body-result{
-    width:500px;
-    height: 400px;
+.card-body-result {
+    width: 500px;
+    height: 500px;
     background-color: black;
     color: white;
     margin-top: 10%;
     margin-left: 20%;
     border-radius: 40px;
-    margin-bottom:20%;
+    margin-bottom: 20%;
 }
-#p-text-result{
+
+#p-text-result {
     text-align: center;
     padding: 2em;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.result-val{
+
+.result-val {
     color: #FE53BB;
     text-transform: capitalize;
 }
-.h1-result{
+
+.h1-result {
     padding-top: 50px;
     color: cyan;
 }
+
 /***************Contact Page*****************/
-#p-text-contact{
-    background-color:lightskyblue;
+#p-text-contact {
+    background-color: lightskyblue;
     color: black;
     width: 700px;
-    height:600px;
+    height: 700px;
     text-align: center;
     padding: 3em;
     border-radius: 40px;
     font-size: 25px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-bottom:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.a-contact {
+    color: blue;
 }

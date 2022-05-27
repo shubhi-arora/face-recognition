@@ -1,73 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/styles.css">
 </head>
+
 <body>
-<!-- Navbar Starts -->
+  <!-- Navbar Starts -->
   <nav class="navbar navbar-expand-lg navbar bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Recognito</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-     
-        <form class="d-flex">
-          
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="about">About</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link active" href="contact" tabindex="-1" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-            
-        </form>
-      </div>
-    
+
+      <form class="d-flex">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+
+      </form>
+    </div>
+
   </nav>
   <!-- Navbar Ends -->
 
-      <div class="container">
-        <div class="card-body-about">
-          <h1 class="h1-about"><em><strong>Overview</strong></em></h1>
-          <p id="p-text-about">The <em><strong class="recognito">Recognito</strong></em> web application acts as an <em class="recognito">emotion detector</em>, 
-              allowing people to identify their emotions by looking at their faces.
-               By keeping suspects on this project's radar, the web app will serve 
-               as a <em class="recognito">truth-finder</em> for the Cops. <br><br>
+  <div class="container">
+    <div class="card-body-about">
+      <h1 class="h1-about"><em><strong>Overview</strong></em></h1>
+      <p class="p-text-about">The <em><strong class="recognito">Recognito</strong></em> web application acts as an <em
+          class="recognito">emotion detector</em>,
+        allowing people to identify their emotions by looking at their faces.
+        By keeping suspects on this project's radar, the web app will serve
+        as a <em class="recognito">truth-finder</em> and <em class="recognito">distinguisher</em> between object and face for the Cops. <br><br>
 
-               Through its monitoring, this project
-                will be able to observe every emotion the suspect exhibits. Every 
-                emotion will be tracked. After 24 hours, the most noted emotion 
-                will be displayed after this app has been keeping a watchful eye 
-                on culprits. <br>
-                <br>As an example-if, the most observed emotion is 
-                happiness, which means the culprit is not hiding anything and 
-                is confident that he is not wrong. When most observed emotion 
-                turns into fear, it likely means he has a secret and is not 
-                telling anyone. There is no doubt that these predictions are 
-                accurate because a person who is guilty will definitely become 
-                nervous, and this nervousness,fear will definitely be evident on 
-                his face. It is impossible for a detective to constantly watch a 
-                criminal and his emotions, but this web app can do as much as it 
-                can. In addition, it eliminates the need to hire additional employees
-                 for observation. 
-        </p>
-       
-         
-        </div>
+        Through its monitoring, this project
+        will be able to observe every emotion the suspect exhibits. Every
+        emotion will be tracked. After 24 hours, the <em class="recognito">most noted emotion</em>
+        will be displayed after this app has been keeping a watchful eye
+        on culprits. <br>
+        <br>As an example-if, the most observed emotion is
+        <em class="recognito">happiness</em>, which means the culprit is not hiding anything and
+        is confident that he is not wrong. When most observed emotion
+        turns into <em class="recognito">fear</em>, it likely means he has a secret and is not
+        telling anyone. There is no doubt that these predictions are
+        accurate because a person who is guilty will definitely become
+        nervous, and this nervousness,fear will definitely be evident on
+        his face. 
+        <br>
+        <br>It is almost impossible for a detective to constantly watch a
+        criminal and his emotions, but this web app can do as much as it
+        can. In addition, it eliminates the need to hire additional employees
+        for observation.
+      </p>
+      <hr>
+      <h2 class="h2-about"><strong>Features:</strong></h2>
+      <ul class="p-text-li">
+        <li>It acts as a <em class="recognito">distinguisher between various objects and faces</em>.</li>
+        <li>Whenever object other than a face is detected
+          in line of sight of a camera
+          , camera screen <em class="recognito">automatically gets freezed</em> and unblocks only after face comes again in line of sight of
+          camera.</li>
+
+        <li>Whenever there is a face it detects emotions and displays it.</li>
+        <li>Most observed emotion is displayed.</li>
+        <li>Other than the emotion <em class="recognito">race</em> of a person is displayed in result section.</li>
+
      
+      </ul>
+      <hr>
+      <h2 class="h2-about"><strong>Calculations:</strong></h2>
+      <ul class="p-text-li">
+        <li>Store each and every occurrence of emotion value into a <em class="recognito">map or dictionary</em>.</li>
+        <li><em class="recognito">Count</em> the occurrenceof each emotion. </li>
+        <li><em class="recognito">Traverse</em> through the map and find the maximum occurence count emotion.</li>
+        <li><em class="recognito">Display</em> the result and proceed the same for race.</li>
+      </ul>
+
     </div>
+
+  </div>
 </body>
+
 </html>
