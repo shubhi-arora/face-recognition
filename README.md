@@ -30,7 +30,7 @@ allowing people to identify their emotions by looking at their faces.
 5. Other than the emotion of a person, **race** is also displayed in result section.
 
 ## Installation steps
-**Note:** All the steps mentioned below are for **Windows** Operating System and have latest version of **Python: 3.10.4**
+**Note:** All the steps mentioned below are for **Windows** Operating System and uses latest version of **Python: 3.10.4**
 1. Clone this Repo using git clone <a href="https://github.com/shubhi-arora/face-recognition.git">https://github.com/shubhi-arora/face-recognition.git<a>
 2. Go to the directory where the project is cloned and then to face-recognition folder.
 3. Open the project folder using **Visual Studio Code**.
@@ -45,19 +45,19 @@ allowing people to identify their emotions by looking at their faces.
 <li>pip install Deepface</li>
 <li>pip install Counter</li>
 </ul>
-6. Open the **app.py** file as initiation of project will be done through it.
+6. Open the **app.py** file as initiation of project will be done through it.<br>
 7. Open the *terminal* and run: <br>py -u path_of_app.py_file<br> If this command doesn't works then try writing:<br> python -u path_of_app.py_file 
 <br>
 OR
 <br>
-Run the app.py file in terminal directly.
+Run the app.py file in terminal directly.<br>
 8. Click on the local host link of port 5001 received in the terminal.
 
 ## Steps To Use
 1. Click on the Detect button as shown on the homepage.
 2. Keep your face in line of sight of camera.
 3. As soon as the face gets away from camera and other object appears, camera screen gets blocked automatically.
-4. It gets unblock only when face comes again in fron of camera.
+4. It gets unblock only when face comes again in front of a camera.
 5. As per the face emotions, emotions will be displayed of a person.
 6. After pressing 'q' twice on the keyboard continuously camera stops and result of most observed emotion and race is displayed.
 
@@ -66,6 +66,11 @@ Run the app.py file in terminal directly.
 
 
 ## Demo
+<p align="center">
+  <img src="C:\Users\dell\OneDrive\Pictures\FaceRecognition\homepage" width="350" title="Homepage">
+  <img src="C:\Users\dell\OneDrive\Pictures\FaceRecognition\about1" width="350" title="About">
+  <!-- <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text"> -->
+</p>
 
 ## Tech-Stack Used
 <ul>
