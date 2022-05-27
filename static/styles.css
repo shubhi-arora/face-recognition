@@ -46,6 +46,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #p-text{
+    font-size: 20px;
     margin-top: 2.5rem;
 }
 .btn{
@@ -79,9 +80,24 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10%;
     margin-left: 20%;
     border-radius: 40px;
+    margin-bottom:30px;
 }
 #p-text-result{
     text-align: center;
-    padding: 4em;
+    padding: 2em;
     font-size: 18px;
+}
+
+/***************Contact Page*****************/
+#p-text-contact{
+    background-color:lightskyblue;
+    color: black;
+    width: 700px;
+    height:600px;
+    text-align: center;
+    padding: 3em;
+    border-radius: 40px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:30px;
 }
