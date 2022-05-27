@@ -1,9 +1,9 @@
 # Recognito
 ## Description
-The **-Recognito** web application acts as an **emotion detector**, 
+The **Recognito** web application acts as an **emotion detector**, 
 allowing people to identify their emotions by looking at their faces.
                By keeping suspects on this project's radar, the web app will serve 
-               as a <font color="red">**truth-finder**</font> and **distinguisher between an object and a face** for the cops. 
+               as a **truth-finder** and **distinguisher between an object and a face** for the cops. 
                <br>
                 Through its monitoring, this project
                 will be able to see every emotion the suspect exhibits. Every 
@@ -30,6 +30,21 @@ allowing people to identify their emotions by looking at their faces.
 5. Other than the emotion of a person, **race** is also displayed in result section.
 
 ## Installation steps
+**Note:** All the steps mentioned below are for **Windows** Operating System and have latest version of **Python: 3.10.4**
+1. Clone this Repo using git clone <a href="https://github.com/shubhi-arora/face-recognition.git">https://github.com/shubhi-arora/face-recognition.git<a>
+2. Go to the directory where the project is cloned and then to face-recognition folder.
+3. Open the project folder using **Visual Studio Code**.
+4. Make sure latest version of Python setup is already installed in your computer. If not then install it from <a href="https://www.python.org/downloads/">here</a> for Windows.
+4. Open the terminal and run following commands to import libraries and install various packages.
+<ul>
+<li>pip install open-cv python</li>
+<li>pip install cv</li>
+<li>pip install Flask</li>
+<li>pip install matplotlib</li>
+<li>pip install numpy</li>
+<li>pip install Deepface</li>
+<li>pip install Counter</li>
+
 
 ### Demo
 
