@@ -1,9 +1,9 @@
 # Recognito
-### Description
-The **Recognito** web application acts as an **emotion detector**, 
+## Description
+The **-Recognito** web application acts as an **emotion detector**, 
 allowing people to identify their emotions by looking at their faces.
                By keeping suspects on this project's radar, the web app will serve 
-               as a **truth-finder** and **distinguisher between an object and a face** for the cops. 
+               as a <font color="red">**truth-finder**</font> and **distinguisher between an object and a face** for the cops. 
                <br>
                 Through its monitoring, this project
                 will be able to see every emotion the suspect exhibits. Every 
@@ -22,12 +22,14 @@ allowing people to identify their emotions by looking at their faces.
                 criminal and his emotions, but this web app can do as much as it 
                 can. In addition, it eliminates the need to hire additional employees
                  for observation. 
-### Features
+## Features
 1. It acts as a **distinguisher** between various objects and faces
 2. Whenever **object other than a face** is detected in line of sight of a camera, camera screen **automatically gets freezed** and unblocks only after face comes again in line of sight of camera.
 3. Whenever there is a face it **detects emotions** and displays it.
 4. Most observed emotion is displayed.
 5. Other than the emotion of a person, **race** is also displayed in result section.
+
+## Installation steps
 
 ### Demo
 
