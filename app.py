@@ -55,8 +55,6 @@ def result():
                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
                  font = cv2.FONT_HERSHEY_DUPLEX
                  res=result['dominant_emotion']
-                
-                #  age=result['age']
                  race=result['dominant_race']
                  l.append(result['dominant_emotion'])
                  cv2.putText(frame, result['dominant_emotion'],(100, 100), font, 5, (0, 0, 255), 12)
