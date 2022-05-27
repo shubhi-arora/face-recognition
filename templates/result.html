@@ -36,25 +36,16 @@
     
   </nav>
   <!-- Navbar Ends -->
-  <!-- <div class="result">
-    {% if emotion %}
-    <h1>value = {{emotion}}</h1>
-    {% endif %}
-    <!-- <h1>Hi</h1> -->
-  </div>
-   -->
    <div class="container">
     <div class="card-body-result">
+      <h1 class="h1-result"><em> Result</em>
+       </h1>
       <p id="p-text-result">
         {% if emotion,gender,race,age %}
-        <h1>Emotion = {{emotion}} </h1>
+        <h1>Emotion = <em class="result-val">{{emotion}}</em> </h1>
         <br>
-        <!-- <h1>Gender={{gender}}</h1>-->
-        <!-- <br>-->
-         <h1>Race={{race}}</h1> 
-        <br> 
-        <!--
-        <h1>Age={{age}}</h1> -->
+         <h1>Race = <em class="result-val">{{race}}</em></h1> 
+        <br>
         {% endif %}
       </p>
     </div>

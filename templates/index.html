@@ -37,11 +37,24 @@
   </nav>
   <!-- Navbar Ends -->
 
-      <div class="container">
+      <div class="container-index">
         <div class="card-body">
-          <p id="p-text">Detect your emotions and dive deeper into yourself!
-            Detect your emotions and dive deeper into yourself!
-            Detect your emotions and dive deeper into yourself!</p>
+          <p id="p-text"><em>"Detect your emotions and dive deeper into yourself!"</em>
+            <br>
+            <br>
+            <h3 id="instruct"><strong>Instructions:</strong></h3>
+            <ul id="li-text">
+              <li>Click on the Detect button below to detect your face.</li>
+              <li>Keep your face in front of the camera.</li>
+              <li>Whenever any object comes in the line of sight of camera other than a face, camera automatically gets blocked.</li>
+              <li>Camera gets unblocked only after face comes in line of sight of camera again.</li>
+              <li>After the detection of face is over, press 'q' twice continuously.</li>
+            </ul>
+            
+            
+
+             
+            </p>
             <form action="/result" method="POST">
               <input type="submit" class="btn btn-lg btn-primary" value="Detect" name="submit"/>
             </form>

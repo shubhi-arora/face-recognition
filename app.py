@@ -6,8 +6,6 @@ import numpy as np
 from deepface import DeepFace
 from collections import Counter
 import matplotlib.pyplot as plt
-# faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
-# cap = cv2.VideoCapture(0)
 app=Flask(__name__)
 @app.route("/")
 @app.route("/home")
@@ -31,9 +29,11 @@ def result():
     model.setInputSwapRB(True)
     
     l=[]
+    race=[]
     font_scale=3
     font=cv2.FONT_HERSHEY_PLAIN
-    global res
+    global res,k,v
+    global maxrace
     global gender
     global age
     faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
@@ -54,23 +54,28 @@ def result():
                  for(x, y, w, h) in faces:
                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
                  font = cv2.FONT_HERSHEY_DUPLEX
-                 res=result['dominant_emotion']
-                 race=result['dominant_race']
+                 race.append(result['dominant_race'])
                  l.append(result['dominant_emotion'])
                  cv2.putText(frame, result['dominant_emotion'],(100, 100), font, 5, (0, 0, 255), 12)
         
                  cv2.imshow('Video', frame)
-                 if cv2.waitKey(2) == ord('q'):  # wait until 'q' key is pressed
+                 if cv2.waitKey(5) == ord('q'):  # wait until 'q' key is pressed
                    break
                  emotion={"neutral":l.count("neutral"),"happy":l.count("happy"),"sad":l.count("sad"),"angry":l.count("angry"),"fear":l.count("fear"),"surprise":l.count("surprise"),"disgust":l.count("disgust")}
                  v=list(emotion.values())
                  k=list(emotion.keys())
                  l=[]
-        if cv2.waitKey(2)==ord('q'):
+                 raceval={"asian":race.count("asian"),"indian":race.count("indian"),"black":race.count("black"),"white":race.count("white"),"middle eastern":race.count("middle eastern"),"latino hispanic":race.count("latino hispanic")}
+                 v2=list(raceval.values())
+                 k2=list(raceval.keys())
+                 race=[]
+        if cv2.waitKey(5)==ord('q'):
            break
     cap.release()
     cv2.destroyAllWindows()
-    return render_template("result.html",emotion=res,race=race)
+    res=k[v.index(max(v))] 
+    maxrace=k2[v2.index(max(v2))]
+    return render_template("result.html",emotion=res,race=maxrace)
 @app.route("/contact",methods=['GET'])
 def contact():
     return render_template("contact.html")

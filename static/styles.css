@@ -28,6 +28,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: white;
   }
+  .container-index {
+    position: relative;
+    color: white;
+  }
   .centered {
     position: absolute;
     top: 50%;
@@ -36,21 +40,36 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
 .card-body{
-    width:400px;
-    height: 400px;
+    width:600px;
+    height: 700px;
     background-color: black;
     color: white;
     margin-top: 15%;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
     border-radius: 40px;
 }
 
 #p-text{
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 2.5rem;
+    text-align: center;
+    color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#instruct{
+    margin-left: 20px;
+}
+#li-text{
+    font-size: 1.3em;
 }
 .btn{
-    margin:40px;
+    margin-top: 30px;
+    margin-left: 220px;
+    align-items: center;
+    text-align: center;
+    background-color: cyan;
+    color: black;
 }
 .btn-lg:hover{
     color: #FE53BB;
@@ -58,36 +77,53 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 /******************** About page ***************************/
 .card-body-about{
-    width:700px;
-    height: 500px;
+    width:800px;
+    height: 800px;
     background-color: black;
-    color: white;
+    color: lightskyblue;
     margin-top: 10%;
     margin-left: 20%;
     border-radius: 40px;
+    margin-bottom: 100px;
+}
+.h1-about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 60px;
+    color: #FE53BB;
 }
 #p-text-about{
     padding: 3em;
-    font-size: 18px;
+    font-size: 20px;
+}
+.recognito{
+    color: #FE53BB;
 }
 
 /**************Result Page**************************/
 .card-body-result{
-    width:400px;
+    width:500px;
     height: 400px;
     background-color: black;
     color: white;
     margin-top: 10%;
     margin-left: 20%;
     border-radius: 40px;
-    margin-bottom:30px;
+    margin-bottom:20%;
 }
 #p-text-result{
     text-align: center;
     padding: 2em;
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.result-val{
+    color: #FE53BB;
+    text-transform: capitalize;
+}
+.h1-result{
+    padding-top: 50px;
+    color: cyan;
+}
 /***************Contact Page*****************/
 #p-text-contact{
     background-color:lightskyblue;
