@@ -44,8 +44,8 @@ allowing people to identify their emotions by looking at their faces.
 <li>pip install numpy</li>
 <li>pip install Deepface</li>
 <li>pip install Counter</li>
-
-5. Open the terminal and run: <br>py -u <path of project folder>.<br> If this command doesn't works then try writing:<br> python -u <path of project folder>
+</ul>
+5. Open the terminal and run: <br>py -u path_of_project_folder.<br> If this command doesn't works then try writing:<br> python -u path_of_project_folder
 
 
 ### Demo
