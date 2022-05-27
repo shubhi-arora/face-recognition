@@ -35,7 +35,7 @@ allowing people to identify their emotions by looking at their faces.
 2. Go to the directory where the project is cloned and then to face-recognition folder.
 3. Open the project folder using **Visual Studio Code**.
 4. Make sure latest version of Python setup is already installed in your computer. If not, then download and install it from <a href="https://www.python.org/downloads/">here</a> for Windows.
-4. Open the terminal and run following commands to import libraries and install various packages.
+5. Open the terminal and run following commands to import libraries and install various packages.
 <ul>
 <li>pip install opencv-python</li>
 <li>pip install cv</li>
@@ -45,9 +45,38 @@ allowing people to identify their emotions by looking at their faces.
 <li>pip install Deepface</li>
 <li>pip install Counter</li>
 </ul>
-5. Open the terminal and run: <br>py -u path_of_project_folder.<br> If this command doesn't works then try writing:<br> python -u path_of_project_folder
+6. Open the **app.py** file as initiation of project will be done through it.
+7. Open the *terminal* and run: <br>py -u path_of_app.py_file<br> If this command doesn't works then try writing:<br> python -u path_of_app.py_file 
+<br>
+OR
+<br>
+Run the app.py file in terminal directly.
+8. Click on the local host link of port 5001 received in the terminal.
+
+## Steps To Use
+1. Click on the Detect button as shown on the homepage.
+2. Keep your face in line of sight of camera.
+3. As soon as the face gets away from camera and other object appears, camera screen gets blocked automatically.
+4. It gets unblock only when face comes again in fron of camera.
+5. As per the face emotions, emotions will be displayed of a person.
+6. After pressing 'q' twice on the keyboard continuously camera stops and result of most observed emotion and race is displayed.
 
 
-### Demo
+
+
+
+## Demo
+
+## Tech-Stack Used
+<ul>
+<li>Python</li>
+<li>OpenCV Library</li>
+<li>Flask</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Jupyter Notebook</li>
+</ul>
+
+
 
 
