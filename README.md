@@ -76,6 +76,9 @@ Run the app.py file in terminal directly.
 
 
 ## Demo
+**Video Demo**
+![](https://drive.google.com/file/d/15TNH1Hqi8dKJrQMpKdqqfZWdqEGiiZfj/view?usp=sharing)
+<br>
 **Homepage**
   <br>
 ![](images/homepage.png)
