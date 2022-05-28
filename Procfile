@@ -1,1 +1,1 @@
-web: py app.py runserver 127.0.0.1:5001
+web: gunicorn app.py
