@@ -77,7 +77,7 @@ Run the app.py file in terminal directly.
 
 ## Demo
 **Video Demo**
-<a href="https://drive.google.com/file/d/15TNH1Hqi8dKJrQMpKdqqfZWdqEGiiZfj/view?usp=sharing"> Video Demo Link</a>
+<a href="https://drive.google.com/file/d/1WqqLVuuLSjucVA_7yrvxNQxKHEcDn_dY/view?usp=sharing"> Video Demo Link</a>
 <br>
 **Homepage**
   <br>
