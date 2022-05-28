@@ -27,7 +27,7 @@ allowing people to identify their emotions by looking at their faces.
 2. Whenever **object other than a face** is detected in line of sight of a camera, camera screen **automatically gets freezed** and unblocks only after face comes again in line of sight of camera.
 3. Whenever there is a face it **detects emotions** and displays it.
 4. Most observed emotion is displayed.
-5. Other than the emotion of a person, **race** is also displayed in result section.
+5. Other than the emotion of a person, **race** and **gender** is also displayed in result section.
 
 ## Installation steps
 **Note:** All the steps mentioned below are for **Windows** Operating System and uses latest version of **Python: 3.10.4**
@@ -60,7 +60,7 @@ Run the app.py file in terminal directly.
 <br>
 <br>
 
-  
+
 **Note:** If an error occurs of 'cv2.dnn_detectionmodel return an exception set' then make sure to change the file locations of 'frozen_file', 'config_file' and 'Labels.txt' in app.py file as per your directory location. If no error occurs then ignore this.
 
 ## Steps To Use
