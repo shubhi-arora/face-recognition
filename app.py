@@ -33,7 +33,7 @@ def result():
     frozen_model = './frozen_inference_graph.pb'
     model = cv2.dnn_DetectionModel(frozen_model, config_file)
     classLabels = []
-    file_name = 'Labels.txt'  # File containing list of objects
+    file_name = './Labels.txt'  # File containing list of objects
     with open(file_name, 'rt') as fpt:
         classLabels = fpt.read().rstrip('\n').split('\n')
     model.setInputSize(320, 320)
@@ -106,7 +106,6 @@ def result():
     cv2.destroyAllWindows()
     res = k[v.index(max(v))]  # Store the emotion with maximum count ##########
     maxrace = k2[v2.index(max(v2))]  # Store the race ################
-    
     # Get result.html and pass res and maxrace
     return render_template("result.html", emotion=res, race=maxrace,gender=gender)
 

@@ -57,6 +57,8 @@ Run the app.py file in terminal directly.
   
   
 8. Click on the local host link of port 5001 received in the terminal.
+<br>
+**Note:** If an error occurs of 'cv2.dnn_detectionmodel return an exception set' then make sure to change the file locations of 'frozen_file', 'config_file' and 'Labels.txt' in app.py file as per your directory location. If no error occurs then ignore this.
 
 ## Steps To Use
 1. Click on the Detect button as shown on the homepage.
@@ -85,6 +87,10 @@ Run the app.py file in terminal directly.
   <br>
 **Contact Info**
   ![](images/contact.png)
+**Emotion Detection**
+![](images/result1.png)
+**Result**
+![](images/result.png)
   
 ## Calculations/Algorithm
   1. Store each and every occurrence of emotion value into a **map or dictionary**.
