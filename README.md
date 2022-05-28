@@ -77,7 +77,7 @@ Run the app.py file in terminal directly.
 
 ## Demo
 **Video Demo**
-![](images/FaceRecognition.mp4)
+<a href="https://drive.google.com/file/d/15TNH1Hqi8dKJrQMpKdqqfZWdqEGiiZfj/view?usp=sharing"> Video Demo Link</a>
 <br>
 **Homepage**
   <br>
